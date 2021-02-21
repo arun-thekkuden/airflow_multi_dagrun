@@ -1,6 +1,6 @@
 from airflow import settings
 from airflow.models import DagRun
-from airflow.sensors.base_sensor_operator import BaseSensorOperator
+from airflow.sensors.base import BaseSensorOperator
 from airflow.utils.decorators import apply_defaults
 from airflow.utils.state import State
 
